@@ -2,19 +2,15 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/arpit-mishra-resume.pdf";
+// import pdf from "../../Assets/../Assets/Soumyajit_Behera-BIT_MESRA.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page } from "react-pdf";
-import "react-pdf/dist/Page/AnnotationLayer.css";
-import "react-pdf/dist/Page/TextLayer.css";
-import { pdfjs } from "react-pdf";
-import pdfWorker from "pdfjs-dist/build/pdf.worker.min?url"; // 👈 Vite will bundle this
-
-pdfjs.GlobalWorkerOptions.workerSrc = pdfWorker;
+import { Document, Page, pdfjs } from "react-pdf";
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
-
+  const pdf = "/arpit-mishra-resume.pdf";
   useEffect(() => {
     setWidth(window.innerWidth);
   }, []);
