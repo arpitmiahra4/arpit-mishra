@@ -13,8 +13,8 @@ function AboutCard() {
             <br />I am currently employed as a Development Team Lead at{" "}
             <span className="purple">Sentara Health</span>.
             <br />
-            I have completed my Bachelor of Computer Applications (BCA) from IPS
-            Academy, Indore.
+            I have completed my Full Stack Web Development (MERN) from MASAI
+            School, Remote.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
