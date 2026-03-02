@@ -9,8 +9,8 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Arpit Mishra </span>
-            from <span className="purple"> Biaora, India.</span>
-            <br />I am currently employed as a Development Team Lead at{" "}
+            from <span className="purple"> Indore, India.</span>
+            <br />I am currently employed as a Frontend Development Team Lead at{" "}
             <span className="purple">Sentara Health</span>.
             <br />
             I have completed my Full Stack Web Development (MERN) from MASAI
